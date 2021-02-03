@@ -1,0 +1,124 @@
+body {
+  background-image: url("purple.jpg");
+}
+img{
+	max-width:50%;
+	height:50%;
+}
+
+span{
+	color: red;
+  font-family: bold;
+
+}
+
+h1 {
+  color: mediumpurple;
+  text-align: center;
+  font-family: courier;
+  font-size: 50px;
+}
+
+h2{
+	color:mediumpurple;
+	font-family: courier;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+h4{
+	color:white;
+	font-family:cursive;
+	text-align: center;
+
+}
+h5{
+	color:indianred;
+	font-family:cursive;
+	text-align: center;
+
+}
+
+p{
+	color: indianred;
+	font-family:courier;
+	text-align:center;
+	font-size: 150%;
+}
+
+a:link{color:green;}
+a:visited{color:mediumpurple;}
+a:hover{color:firebrick;}
+a:active{color:salmon;}
+
+a{
+	display:block;
+	text-align: center;
+}
+
+.center {
+		display:block;
+		margin-left: auto;
+		margin-right:auto;
+		width: 30%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+ul.a{
+	color:black;
+	list-style-position: inside;
+	list-style-type: circle;
+	width: 10%;
+	margin:auto;
+}
+
+ol.a{
+	color: black;
+	list-style-position: outside;
+	list-style-type: numbered;
+	width: 10%;
+	margin:auto;
+}
+
+ul.b{
+	color:black;
+  text-align: center;
+	list-style-position: inside;
+	width: 50%;
+	margin:auto;
+}
+
+ol.b{
+	color: black;
+  text-align: center;
+  list-style-type: numbered;
+	list-style-position: outside;
+	width: 50%;
+	margin:auto;
+}
+
+.myDiv {
+  border: 5px outset black;
+  background-color: rosybrown;
+  text-align: center;
+}
